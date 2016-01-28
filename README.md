@@ -30,5 +30,6 @@ relop -> = = | != | <= | >=| > | <
 addop -> + | -
 mulop -> *| / | %
 
+
 1) tokenizer.cpp first takes the input file to generate "output.txt", which is a tokenized form of the input.
 2) parser.cpp then reads "output.txt" to determine if the program is syntactically correct or not based on the stated Grammar
