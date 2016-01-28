@@ -3,6 +3,7 @@ A parser and tokenizer for a subset of C language, written as a part of undergra
 
 The purpose of the 2 files (tokenizer and parser) was to write a Mini C compiler based on the following subset of C language:
 
+
 Data Types : int, char
 Arrays : 1-dimensional
 Expressions : Arithmetic and Relational
