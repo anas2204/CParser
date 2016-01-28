@@ -3,7 +3,6 @@ A parser and tokenizer for a subset of C language, written as a part of undergra
  <br />
 The purpose of the 2 files (tokenizer and parser) was to write a Mini C compiler based on the following subset of C language: <br />
  <br />
- <br />
 1) Data Types : int, char  <br />
 2) Arrays : 1-dimensional  <br />
 3) Expressions : Arithmetic and Relational <br />
@@ -31,5 +30,5 @@ The purpose of the 2 files (tokenizer and parser) was to write a Mini C compiler
 25) mulop -> *| / | % <br />
 <br />
 <br />
-1) tokenizer.cpp first takes the input file to generate "output.txt", which is a tokenized form of the input. <br />
+1) tokenizer.cpp first takes the input file (sample1.c) to generate "output.txt", which is a tokenized form of the input. <br />
 2) parser.cpp then reads "output.txt" to determine if the program is syntactically correct or not based on the stated Grammar <br />
