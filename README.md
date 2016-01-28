@@ -32,7 +32,5 @@ Grammar: <br />
 - addop -> + | - <br />
 - mulop -> *| / | % <br />
 <br />
-<br />
-
 1 - tokenizer.cpp first takes the input file (sample1.c) to generate "output.txt", which is a tokenized form of the input. <br />
 2 - parser.cpp then reads "output.txt" to determine if the program is syntactically correct or not based on the stated Grammar <br />
