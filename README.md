@@ -11,7 +11,7 @@ The purpose of the 2 files (tokenizer and parser) was to write a Mini C compiler
 <br />
 Grammar: <br />
 
-- Program - main () { declarations statement-list } <br />
+- Program -> main () { declarations statement-list } <br />
 - declarations -> data-type identifier-list; declarations | Null <br />
 - data-type -> int | char <br />
 - identifier-list -> id | id, identifier-list | id[number] , identifier-list | id[number] <br />
@@ -31,6 +31,6 @@ Grammar: <br />
 - relop -> = = | != | <= | >=| > | < <br />
 - addop -> + | - <br />
 - mulop -> *| / | % <br />
-<br />
+
 1 - tokenizer.cpp first takes the input file (sample1.c) to generate "output.txt", which is a tokenized form of the input. <br />
 2 - parser.cpp then reads "output.txt" to determine if the program is syntactically correct or not based on the stated Grammar <br />
