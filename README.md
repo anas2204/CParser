@@ -1,12 +1,12 @@
 # CParser
 A parser and tokenizer for a subset of C language, written as a part of undergraduate course on language processor
 
-The purpose of the 2 files (tokenizer and parser) was to write a Mini C compiler based on the following subset of C language:
+The purpose of the 2 files (tokenizer and parser) was to write a Mini C compiler based on the following subset of C language: <br />
 
 
-Data Types : int, char
-Arrays : 1-dimensional
-Expressions : Arithmetic and Relational
+Data Types : int, char  <br />
+Arrays : 1-dimensional  <br />
+Expressions : Arithmetic and Relational <br />
 Looping statements : for, while
 Decision statements : if, if – else
 Program - main () { declarations statement-list }
